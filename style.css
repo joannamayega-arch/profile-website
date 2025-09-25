@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: lightred;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: navy;
+}
+
+
+nav {
+    background-color: darkblue;
+    padding: 12px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: yellow;
+}
+
+.gallery img {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid pink;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: lightpink;
+}
+
+form {
+    background: lightyellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px gray;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+form input[type="submit"] {
+    background: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+form input[type="submit"]:hover {
+    background: darkred;
+}
+
+footer {
+    background: lightblue;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
